@@ -1,0 +1,6 @@
+{
+  "name": "Betaflight OSD Splash Generator",
+  "description": "Generate and customize pixel-perfect 288x72 3-color BMP splash screens for Betaflight OSD using curated Google Fonts, FPV presets, and vector badges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

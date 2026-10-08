@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Faster One",
+    "weight": "400",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "max speed"
+    ]
+  },
+  {
+    "name": "Tourney",
+    "weight": "900",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "competitive"
+    ]
+  },
+  {
+    "name": "Russo One",
+    "weight": "400",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "heavy block"
+    ]
+  },
+  {
+    "name": "Bruno Ace SC",
+    "weight": "400",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "supersonic"
+    ]
+  },
+  {
+    "name": "Orbitron",
+    "weight": "900",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "cyber hud"
+    ]
+  },
+  {
+    "name": "Michroma",
+    "weight": "400",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "aerospace"
+    ]
+  },
+  {
+    "name": "Audiowide",
+    "weight": "400",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "synth hud"
+    ]
+  },
+  {
+    "name": "Goldman",
+    "weight": "700",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "robotics"
+    ]
+  },
+  {
+    "name": "Press Start 2P",
+    "weight": "400",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "8-bit classic"
+    ]
+  },
+  {
+    "name": "Silkscreen",
+    "weight": "700",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "crisp pixel"
+    ]
+  },
+  {
+    "name": "VT323",
+    "weight": "400",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "crt telemetry"
+    ]
+  },
+  {
+    "name": "Share Tech Mono",
+    "weight": "400",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "hacker mono"
+    ]
+  },
+  {
+    "name": "Black Ops One",
+    "weight": "400",
+    "category": "military",
+    "tags": [
+      "military",
+      "stencil armor"
+    ]
+  },
+  {
+    "name": "Chakra Petch",
+    "weight": "700",
+    "category": "military",
+    "tags": [
+      "military",
+      "combat drone"
+    ]
+  },
+  {
+    "name": "Teko",
+    "weight": "700",
+    "category": "military",
+    "tags": [
+      "military",
+      "tall condensed"
+    ]
+  },
+  {
+    "name": "Anton",
+    "weight": "400",
+    "category": "military",
+    "tags": [
+      "military",
+      "max impact"
+    ]
+  },
+  {
+    "name": "Oxanium",
+    "weight": "800",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "hex tech"
+    ]
+  },
+  {
+    "name": "Rajdhani",
+    "weight": "700",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "aero squared"
+    ]
+  },
+  {
+    "name": "Syne",
+    "weight": "800",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "modern racer"
+    ]
+  },
+  {
+    "name": "Righteous",
+    "weight": "400",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "retro future"
+    ]
+  },
+  {
+    "name": "Bungee",
+    "weight": "400",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "bold",
+      "display"
+    ]
+  },
+  {
+    "name": "Bungee Shade",
+    "weight": "400",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "shadow",
+      "display"
+    ]
+  },
+  {
+    "name": "Monoton",
+    "weight": "400",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "retro",
+      "outline"
+    ]
+  },
+  {
+    "name": "Racing Sans One",
+    "weight": "400",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "speed",
+      "italic"
+    ]
+  },
+  {
+    "name": "Wallpoet",
+    "weight": "400",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "stencil",
+      "tech"
+    ]
+  },
+  {
+    "name": "Iceland",
+    "weight": "400",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "squared",
+      "tech"
+    ]
+  },
+  {
+    "name": "Electrolize",
+    "weight": "400",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "clean",
+      "tech"
+    ]
+  },
+  {
+    "name": "Geo",
+    "weight": "400",
+    "category": "cyberpunk",
+    "tags": [
+      "cyberpunk",
+      "geometric",
+      "tech"
+    ]
+  },
+  {
+    "name": "DotGothic16",
+    "weight": "400",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "retro",
+      "dotted"
+    ]
+  },
+  {
+    "name": "Pixelify Sans",
+    "weight": "400",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "retro",
+      "arcade"
+    ]
+  },
+  {
+    "name": "Tiny5",
+    "weight": "400",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "compact",
+      "arcade"
+    ]
+  },
+  {
+    "name": "Jersey 10",
+    "weight": "400",
+    "category": "pixel",
+    "tags": [
+      "pixel",
+      "sports",
+      "bold"
+    ]
+  },
+  {
+    "name": "Saira Stencil",
+    "weight": "400",
+    "category": "military",
+    "tags": [
+      "military",
+      "stencil",
+      "bold"
+    ]
+  },
+  {
+    "name": "Stardos Stencil",
+    "weight": "400",
+    "category": "military",
+    "tags": [
+      "military",
+      "stencil",
+      "serif"
+    ]
+  },
+  {
+    "name": "Allerta Stencil",
+    "weight": "400",
+    "category": "military",
+    "tags": [
+      "military",
+      "stencil",
+      "clean"
+    ]
+  },
+  {
+    "name": "Rubik Mono One",
+    "weight": "400",
+    "category": "military",
+    "tags": [
+      "military",
+      "bold",
+      "monospace"
+    ]
+  },
+  {
+    "name": "Bebas Neue",
+    "weight": "400",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "condensed",
+      "bold"
+    ]
+  },
+  {
+    "name": "Exo 2",
+    "weight": "400",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "tech",
+      "geometric"
+    ]
+  },
+  {
+    "name": "Barlow Condensed",
+    "weight": "400",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "condensed",
+      "sports"
+    ]
+  },
+  {
+    "name": "Tomorrow",
+    "weight": "400",
+    "category": "clean",
+    "tags": [
+      "clean",
+      "squared",
+      "tech"
+    ]
+  }
+]

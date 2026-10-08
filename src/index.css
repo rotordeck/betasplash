@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@import "./data/fontFaces.css";
+
+/*
+ * Rotordeck design tokens. When the app is embedded on rotordeck.com, the shared
+ * stylesheet defines the same custom properties and wins; standalone builds use
+ * the fallbacks. The bitmap palette (white, black, #00FF00) lives in the renderer
+ * and never depends on these UI colors.
+ */
+@theme inline {
+  --color-ground: var(--ground, #141611);
+  --color-panel: var(--panel, #1d2019);
+  --color-panel-2: var(--panel-2, #191c16);
+  --color-well: #10130e;
+  --color-ink: var(--ink, #f1f2e9);
+  --color-muted: var(--muted, #b1b6a6);
+  --color-faint: #838b76;
+  --color-line: var(--line, #35392e);
+  --color-line-strong: #454b3c;
+  --color-lime: var(--lime, #c3f45c);
+  --color-lime-hover: #d5ff83;
+  --color-danger: #ff9d8a;
+  --font-sans: var(--body, system-ui, -apple-system, "Segoe UI", sans-serif);
+  --font-mono: var(--mono, ui-monospace, "SFMono-Regular", Menlo, monospace);
+}
+
+:root {
+  color-scheme: dark;
+  background: var(--color-ground);
+  color: var(--color-ink);
+}
+
+body {
+  margin: 0;
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--color-lime); color: var(--color-ground); }
+
+:focus-visible { outline: 2px solid var(--color-lime); outline-offset: 3px; }
+
+input[type='range'] { accent-color: var(--color-lime); }
+input[type='checkbox'] { accent-color: var(--color-lime); }
+
+/* Page width; matches the Rotordeck header and footer when embedded. */
+.bs-container { width: min(1240px, calc(100% - 2 * var(--rd-space, clamp(16px, 4vw, 40px)))); margin-inline: auto; }
+
+/* Eyebrow labels, as on rotordeck.com. */
+.bs-eyebrow {
+  font: 500 11px/1.4 var(--font-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.bs-scroll { scrollbar-width: thin; scrollbar-color: var(--color-line-strong) transparent; }
+
+/* Simulated camera feed behind the goggles preview. */
+.bs-feed {
+  background:
+    radial-gradient(120% 70% at 50% 110%, #1b2416 0%, transparent 60%),
+    linear-gradient(180deg, #8d9aa0 0%, #b9c2bd 34%, #97a49a 46%, #4f6146 52%, #2d3b28 70%, #1a2316 100%);
+}
+.bs-feed[data-feed='dark'] { background: linear-gradient(180deg, #1c2128 0%, #0b0e10 100%); }
+.bs-feed[data-feed='bright'] { background: linear-gradient(180deg, #f3f6f7 0%, #d9e1e4 60%, #c3ccc6 100%); }
+.bs-feed::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgb(0 0 0 / 0.16) 0 1px, transparent 1px 3px);
+  box-shadow: inset 0 0 90px rgb(0 0 0 / 0.55);
+}
+.bs-osd-text {
+  font: 700 clamp(9px, 1.9vw, 15px)/1.35 var(--font-mono);
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000;
+}
+
+/* The wizard is a native modal dialog. */
+.wizard-dialog { width: min(1120px, calc(100vw - 24px)); max-width: none; max-height: 90dvh; margin: auto; }
+.wizard-dialog::backdrop { background: rgb(10 12 8 / 0.86); backdrop-filter: blur(8px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
