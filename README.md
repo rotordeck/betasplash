@@ -77,3 +77,7 @@ fonts. Text sizes are fitted to the available space. Selecting a thumbnail
 copies its settings into the editor. Use Back, Shuffle 42 more, or Skip to
 editor. **Start with your name** in the intro reopens the wizard with your current text.
 Font loading errors leave the wizard open so you can retry or change fonts.
+
+## License
+
+Apache License 2.0. See `LICENSE`. Fonts used in the artwork load from Google Fonts under their own licenses.
