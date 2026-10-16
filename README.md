@@ -78,6 +78,30 @@ copies its settings into the editor. Use Back, Shuffle 42 more, or Skip to
 editor. **Start with your name** in the intro reopens the wizard with your current text.
 Font loading errors leave the wizard open so you can retry or change fonts.
 
+## Frequently asked questions
+
+### How do I change the Betaflight boot logo?
+
+Design it on [rotordeck.com/betasplash](https://rotordeck.com/betasplash/), download the 288×72 BMP and load it in Betaflight Configurator's Font Manager as the logo. The page has an install guide below the editor.
+
+### Can I put my callsign on the OSD start screen?
+
+Yes, that's what Betasplash is for: type your callsign, pick a font, style, frame and emblem, and check it in the goggles preview before you export.
+
+### Can I turn my own image into a Betaflight OSD logo?
+
+Yes. Import an image and Betasplash converts it to the OSD's three colours (white, black and transparent) at 288×72, the exact size the logo needs.
+
+## More free FPV tools from Rotordeck
+
+- [Sticklink](https://rotordeck.com/sticklink/): live stick and telemetry overlays for OBS, straight from an EdgeTX radio
+- [Stickbeats](https://rotordeck.com/stickbeats/): free EdgeTX sound themes and voice packs, with a mixer to record your own
+- [OSD Fonts](https://rotordeck.com/osd-fonts/): 278 retro fonts and a font editor for the Betaflight analog OSD
+- [bf](https://rotordeck.com/bf/): configure Betaflight from the command line, for humans and AI agents
+- [Rotordeck skills](https://github.com/rotordeck/skills): Agent Skills that teach Claude Code and other agents to set up Betaflight
+
+All of them in one place: the [Rotordeck Toy Box](https://rotordeck.com/toybox/).
+
 ## License
 
 Apache License 2.0. See `LICENSE`. Fonts used in the artwork load from Google Fonts under their own licenses.
